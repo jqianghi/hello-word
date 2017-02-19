@@ -35,7 +35,7 @@ public class CartServiceImpl implements CartService {
 		if (StringUtils.isNotEmpty(cartValue)) {
 			cartList = JsonUtils.jsonToList(cartValue, TbItemExt.class);
 		}
-		//wnagji
+		//wangji
 		return cartList;
 	}
 
